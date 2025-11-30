@@ -1,0 +1,8 @@
+opencv-python
+opencv-contrib-python
+mediapipe
+numpy
+torch
+transformers
+deepface
+onnxruntime
