@@ -1,18 +1,18 @@
 # emotion_model.py
 
-import time
-from typing import List, Tuple
 import numpy as np
-import threading
-from collections import deque, defaultdict
-from deepface import DeepFace
-import os
 import cv2
+from typing import List, Tuple
+from deepface import DeepFace
+from collections import deque, defaultdict
+import threading
+import time
+import os
 
 # Global variables for model initialization
-pipeline = None
 DeepFace = None
 onnxruntime = None
+pipeline = None
 
 # Attempt to import ONNX Runtime; if not available, set ort to None
 try:
