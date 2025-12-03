@@ -3,16 +3,17 @@
 import numpy as np
 import cv2
 from typing import List, Tuple
-from deepface import DeepFace
 from collections import deque, defaultdict
 import threading
 import time
 import os
 
-# Global variables for model initialization
-DeepFace = None
-onnxruntime = None
-pipeline = None
+
+# Attempt to import Deepface; if not available, set df to None
+try:
+    from deepface import DeepFace as df
+except ImportError:
+    df = None
 
 # Attempt to import ONNX Runtime; if not available, set ort to None
 try:
@@ -20,6 +21,10 @@ try:
 except ImportError:
     ort = None
 
+# Global variables for model initialization
+pipeline = None
+DeepFace = df
+onnxruntime = ort
 
 # Emotionmodel class definition
 class EmotionModel:
