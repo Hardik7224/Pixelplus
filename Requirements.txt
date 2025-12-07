@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 opencv-python
 opencv-contrib-python
 mediapipe
@@ -6,3 +7,13 @@ torch
 transformers
 deepface
 onnxruntime
+=======
+opencv-python
+opencv-contrib-python
+mediapipe
+numpy
+torch
+transformers
+deepface
+onnxruntime
+>>>>>>> ecf05bcc895d0b8327a3ab43d79a287043c5ba74
