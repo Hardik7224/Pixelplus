@@ -65,8 +65,7 @@ python face_emotion_identifier/main.py
 
 # 📂 Project Structure
 ```bash
-# 📂 Project Structure
-# Pixelplus/
+# 📂 Pixelplus/
 # │
 # ├── face_emotion_identifier/
 # │   ├── __pycache__/         # Python cache files
