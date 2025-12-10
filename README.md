@@ -12,13 +12,13 @@ A **real-time Facial Expression Detection System** built using **Python**, **Ope
 
 - Real-time facial expression detection using webcam.
 - Detects **7 key emotions**:
-- 😄 Happy
-- 😢 Sad
-- 😠 Angry
-- 😐 Neutral
-- 😲 Surprise
-- 😨 Fear
-- 🤢 Disgust
+> 😄 Happy
+> 😢 Sad
+> 😠 Angry
+> 😐 Neutral
+> 😲 Surprise
+> 😨 Fear
+> 🤢 Disgust
 - User-friendly interface with live feedback.
 - Utilizes deep learning for accurate predictions.
 
