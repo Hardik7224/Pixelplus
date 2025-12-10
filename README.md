@@ -30,12 +30,14 @@ Open your terminal and run the following commands step by step:
 
 ```bash
 # Clone the repository and navigate into it
-git clone https://github.com/yourusername/facial-expression-detection.git && cd facial-expression-detection
+git clone https://github.com/Hardik7224/Pixelplus.git && cd face_emotion_identifier
 ````
+
 ```bash
 # Create a virtual environment (replace "venv" with your preferred name)
 python -m venv venv
 ````
+
 ```bash
 # Activate the virtual environment
 # On Linux / macOS:
@@ -43,10 +45,12 @@ source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
 ````
+
 ```bash
 # Install all required dependencies
 pip install -r Requirements.txt
 ````
+
 ```bash
 # Run the application
 python face_emotion_identifier/main.py
