@@ -63,17 +63,18 @@ python face_emotion_identifier/main.py
 ---
 
 # 🛠️ Requirements
-# - Python 3.8+
-# - OpenCV
-# - TensorFlow / Keras
-# - Numpy
-# - Other dependencies listed in Requirements.txt
+ - Python 3.8+
+ - OpenCV
+ - TensorFlow / Keras
+ - Numpy
+ - Other dependencies listed in Requirements.txt
 
 ---
 
 # ⚙️ How It Works
-# 1. Captures live video feed from the webcam using OpenCV
-# 2. Detects faces in each frame using face_locator.py
-# 3. Processes faces through the deep learning model in emotion_model.py
-# 4. Uses overlay_utils.py to display the predicted emotion on the screen in real-time
-# 5. Main application logic runs in main.py
+ 1. Captures live video feed from the webcam using OpenCV
+ 2. Detects faces in each frame using face_locator.py
+ 3. Processes faces through the deep learning model in emotion_model.py
+ 4. Uses overlay_utils.py to display the predicted emotion on the screen in real-time
+ 5. Main application logic runs in main.py
+---
