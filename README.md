@@ -1,7 +1,7 @@
 # Pixelplus
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)](https://www.python.org/)  
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-orange?logo=opencv&logoColor=white)](https://opencv.org/)  
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)](https://www.python.org/) &nbsp;&nbsp;&nbsp;
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-orange?logo=opencv&logoColor=white)](https://opencv.org/) &nbsp;&nbsp;&nbsp;
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-red?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)  
 
 A **real-time Facial Expression Detection System** built using **Python**, **OpenCV**, **TensorFlow/Keras**, and **Deep Learning**. This system can detect key human emotions from your webcam in real-time.  
@@ -11,7 +11,14 @@ A **real-time Facial Expression Detection System** built using **Python**, **Ope
 ## 🎯 Features
 
 - Real-time facial expression detection using webcam.
-- Detects **7 key emotions**: 😄 Happy, 😢 Sad, 😠 Angry, 😐 Neutral, 😲 Surprise, 😨 Fear, 🤢 Disgust
+- Detects **7 key emotions**:
+- 😄 Happy
+- 😢 Sad
+- 😠 Angry
+- 😐 Neutral
+- 😲 Surprise
+- 😨 Fear
+- 🤢 Disgust
 - User-friendly interface with live feedback.
 - Utilizes deep learning for accurate predictions.
 
@@ -59,7 +66,7 @@ python face_emotion_identifier/main.py
 # 📂 Project Structure
 ```bash
 # 📂 Project Structure
-# facial-expression-detection/
+# Pixelplus/
 # │
 # ├── face_emotion_identifier/
 # │   ├── __pycache__/         # Python cache files
