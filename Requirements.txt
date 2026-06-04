@@ -1,8 +1,9 @@
-opencv-python
-opencv-contrib-python
-mediapipe
-numpy
-torch
-transformers
-deepface
-onnxruntime
+opencv-python>=4.8
+opencv-contrib-python>=4.8
+mediapipe>=0.10
+numpy>=1.23
+transformers>=4.30
+deepface>=0.0.79
+onnxruntime>=1.16
+tf-keras
+requests
