@@ -68,11 +68,11 @@ python face_emotion_identifier/main.py
 ---
 
 ## 📂 Project Structure
+
 ```bash
 # 📂 Pixelplus/
 # │
 # ├── face_emotion_identifier/
-# │   ├── __pycache__/         # Python cache files
 # │   ├── emotion_model.py     # Deep learning model for emotion detection
 # │   ├── face_locator.py      # Face detection utility
 # │   ├── overlay_utils.py     # Overlay utilities for visualization
